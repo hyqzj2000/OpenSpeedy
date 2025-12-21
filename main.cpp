@@ -36,7 +36,7 @@ main(int argc, char* argv[])
     QApplication a(argc, argv);
     
     QSettings settings(QCoreApplication::applicationDirPath() + "/config.ini", QSettings::IniFormat);
-    int theme = settings.value(CONFIG_THEME, ThemeUtils::Dark).toInt();
+    int theme = settings.value(CONFIG_THEME, ThemeUtils::Light).toInt();
     ThemeUtils::applyTheme((ThemeUtils::Theme)theme);
 
     winutils::enableAllPrivilege();
