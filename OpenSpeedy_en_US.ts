@@ -294,13 +294,13 @@ Origin</translation>
         <location filename="mainwindow.ui" line="922"/>
         <location filename="build/x86_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="556"/>
         <source>浅色</source>
-        <translation type="unfinished"></translation>
+        <translation>Light</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="930"/>
         <location filename="build/x86_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="557"/>
         <source>深色</source>
-        <translation type="unfinished"></translation>
+        <translation>Dark</translation>
     </message>
     <message>
         <source>体系结构</source>
@@ -457,7 +457,7 @@ Origin</translation>
         <location filename="mainwindow.ui" line="874"/>
         <location filename="build/x86_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="589"/>
         <source>🎨主题</source>
-        <translation type="unfinished"></translation>
+        <translation>🎨Theme</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="889"/>

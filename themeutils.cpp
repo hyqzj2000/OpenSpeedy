@@ -43,6 +43,7 @@ void ThemeUtils::setDarkTheme()
     QApplication* app = static_cast<QApplication*>(QApplication::instance());
     if (!app) return;
 
+    // 深色模式必须使用 Fusion 风格，因为 WindowsVista 风格强制使用浅色控件
     app->setStyle(QStyleFactory::create("Fusion"));
 
     QPalette darkPalette;
@@ -76,10 +77,10 @@ void ThemeUtils::setLightTheme()
     QApplication* app = static_cast<QApplication*>(QApplication::instance());
     if (!app) return;
 
-    // "WindowsVista" 是 Qt 中对应 Windows 现代系统（Win7/10/11）的原生风格
-    QStyle* style = QStyleFactory::create("WindowsVista");
+    // 浅色模式优先使用 WindowsVista (原生) 风格
+    QStyle* style = QStyleFactory::create("Fusion");
     if (!style) {
-        style = QStyleFactory::create("Fusion");
+        style = QStyleFactory::create("Windows");
     }
     app->setStyle(style);
     
