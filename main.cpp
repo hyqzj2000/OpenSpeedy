@@ -16,6 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 #include "mainwindow.h"
+#include "themeutils.h"
 #include "windbg.h"
 #include <QApplication>
 #include <QCommandLineParser>
@@ -33,6 +34,11 @@ main(int argc, char* argv[])
     QApplication::setAttribute(Qt::AA_UseHighDpiPixmaps);
     QApplication::setAttribute(Qt::AA_UseSoftwareOpenGL);
     QApplication a(argc, argv);
+    
+    QSettings settings(QCoreApplication::applicationDirPath() + "/config.ini", QSettings::IniFormat);
+    int theme = settings.value(CONFIG_THEME, ThemeUtils::Dark).toInt();
+    ThemeUtils::applyTheme((ThemeUtils::Theme)theme);
+
     winutils::enableAllPrivilege();
 
     // 检查是否已有实例在运行
@@ -51,10 +57,6 @@ main(int argc, char* argv[])
     appIcon.addFile(":/icons/images/icon_32.ico", QSize(32, 32));
     appIcon.addFile(":/icons/images/icon_64.ico", QSize(64, 64));
     a.setWindowIcon(appIcon);
-
-    QSettings settings =
-      QSettings(QCoreApplication::applicationDirPath() + "/config.ini",
-                QSettings::IniFormat);
 
     QTranslator translator;
     const QString baseName =

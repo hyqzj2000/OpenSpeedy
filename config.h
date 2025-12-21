@@ -27,6 +27,8 @@
 #define SPEEDPATCH64_DLL "speedpatch64.dll"
 
 #define CONFIG_LANGUAGE "General/Language"
+#define CONFIG_THEME "General/Theme"
+
 
 // 热键ID
 enum HotkeyIds

@@ -404,9 +404,14 @@ ProcessMonitor::startBridge64()
 void
 ProcessMonitor::healthcheckBridge()
 {
+    // 获取当前主题下的高亮文本颜色
+    QColor highlightColor = QApplication::palette().color(QPalette::Highlight);
+    // 如果是深色模式，使用亮绿色；如果是浅色模式，使用深绿色
+    QString greenColorStr = (QApplication::palette().color(QPalette::Window).value() < 128) ? "lightgreen" : "green";
+
     if (this->m_bridge32->state() == QProcess::Running)
     {
-        m_injector32StatusLabel->setStyleSheet("color: green");
+        m_injector32StatusLabel->setStyleSheet(QString("color: %1").arg(greenColorStr));
         m_injector32StatusLabel->setText(tr("正常"));
     }
     else
@@ -417,7 +422,7 @@ ProcessMonitor::healthcheckBridge()
 
     if (this->m_bridge64->state() == QProcess::Running)
     {
-        m_injector64StatusLabel->setStyleSheet("color: green");
+        m_injector64StatusLabel->setStyleSheet(QString("color: %1").arg(greenColorStr));
         m_injector64StatusLabel->setText(tr("正常"));
     }
     else

@@ -26,6 +26,8 @@ set(PROJECT_SOURCES
         mainwindow.cpp
         mainwindow.h
         mainwindow.ui
+        themeutils.h
+        themeutils.cpp
         ${TS_FILES}
 )
 

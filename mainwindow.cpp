@@ -17,6 +17,7 @@
  */
 #include "./ui_mainwindow.h"
 #include "mainwindow.h"
+#include "themeutils.h"
 #include <QCloseEvent>
 #include <QDateTime>
 #include <QDebug>
@@ -98,13 +99,20 @@ void MainWindow::recreate()
 
 void MainWindow::refresh()
 {
-    ui->cpuContent->setText(QString("<span style='color:blue'>%1%</span>")
+    // 获取当前主题下的高亮文本颜色
+    QColor highlightColor = QApplication::palette().color(QPalette::Highlight);
+    // 如果是深色模式，使用亮蓝色；如果是浅色模式，使用深蓝色
+    QString colorStr = (QApplication::palette().color(QPalette::Window).value() < 128) ? "lightblue" : "blue";
+
+    ui->cpuContent->setText(QString("<span style='color:%1'>%2%</span>")
+                            .arg(colorStr)
                             .arg(m_cpu->getUsage(), 5, 'f', 1, ' '));
 
     double memUsage = m_mem->getUsage();
     double memTotal = m_mem->getTotal();
     ui->memContent->setText(
-        QString("<span style='color:blue'>(%1G / %2G) %3%</span>")
+        QString("<span style='color:%1'>(%2G / %3G) %4%</span>")
+        .arg(colorStr)
         .arg(memUsage, 0, 'f', 1)
         .arg(memTotal, 0, 'f', 1)
         .arg(memUsage / memTotal * 100, 4, 'f', 1));
@@ -192,9 +200,9 @@ void MainWindow::createTray()
 
     // 创建托盘菜单、创建动作
     trayMenu = new QMenu(this);
-    showAction = new QAction("显示", this);
-    hideAction = new QAction("隐藏", this);
-    quitAction = new QAction("退出", this);
+    showAction = new QAction(tr("显示"), this);
+    hideAction = new QAction(tr("隐藏"), this);
+    quitAction = new QAction(tr("退出"), this);
 
     // 连接信号和槽
     connect(showAction, &QAction::triggered, this,
@@ -366,6 +374,7 @@ void MainWindow::init()
     m_languageGroup->setExclusive(true);
     m_languageGroup->setEnabled(true);
     m_languageGroup->addAction(ui->actionCN);
+    m_languageGroup->addAction(ui->actionTW);
     m_languageGroup->addAction(ui->actionEN);
     QString language =
         m_settings->value(CONFIG_LANGUAGE, QLocale().system().name())
@@ -420,6 +429,38 @@ void MainWindow::init()
         msgBox.setWindowTitle(tr("提示"));
         msgBox.setText(tr("直到重启应用后，界面的语言才会生效"));
         msgBox.exec();
+    });
+
+    m_themeGroup = new QActionGroup(this);
+    m_themeGroup->setExclusive(true);
+    m_themeGroup->setEnabled(true);
+    m_themeGroup->addAction(ui->actionLightTheme);
+    m_themeGroup->addAction(ui->actionDarkTheme);
+    
+    int theme = m_settings->value(CONFIG_THEME, ThemeUtils::Dark).toInt();
+    if (theme == ThemeUtils::Light)
+    {
+        ui->actionLightTheme->setChecked(true);
+    }
+    else
+    {
+        ui->actionDarkTheme->setChecked(true);
+    }
+
+    connect(ui->actionLightTheme, &QAction::triggered,
+            [this]
+    {
+        m_settings->setValue(CONFIG_THEME, ThemeUtils::Light);
+        ThemeUtils::applyTheme(ThemeUtils::Light);
+        refresh(); // 刷新界面以更新颜色
+    });
+
+    connect(ui->actionDarkTheme, &QAction::triggered,
+            [this]
+    {
+        m_settings->setValue(CONFIG_THEME, ThemeUtils::Dark);
+        ThemeUtils::applyTheme(ThemeUtils::Dark);
+        refresh(); // 刷新界面以更新颜色
     });
 }
 

@@ -90,6 +90,7 @@ class MainWindow
     int m_back;
 
     QActionGroup* m_languageGroup;
+    QActionGroup* m_themeGroup;
 
     void init();
 

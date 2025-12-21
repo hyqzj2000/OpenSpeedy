@@ -96,11 +96,6 @@
              <height>0</height>
             </size>
            </property>
-           <property name="styleSheet">
-            <string notr="true">        QFrame {
-            color: #333333;
-        }</string>
-           </property>
            <property name="frameShape">
             <enum>QFrame::StyledPanel</enum>
            </property>
@@ -874,8 +869,16 @@ QTreeWidget {
     <addaction name="actionTW"/>
     <addaction name="actionEN"/>
    </widget>
+   <widget class="QMenu" name="menuTheme">
+    <property name="title">
+     <string>🎨主题</string>
+    </property>
+    <addaction name="actionLightTheme"/>
+    <addaction name="actionDarkTheme"/>
+   </widget>
    <addaction name="menuPreference"/>
    <addaction name="menuLanguage"/>
+   <addaction name="menuTheme"/>
    <addaction name="menuAbout"/>
   </widget>
   <action name="actionCN">
@@ -909,6 +912,22 @@ QTreeWidget {
    </property>
    <property name="menuRole">
     <enum>QAction::ApplicationSpecificRole</enum>
+   </property>
+  </action>
+  <action name="actionLightTheme">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>浅色</string>
+   </property>
+  </action>
+  <action name="actionDarkTheme">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>深色</string>
    </property>
   </action>
  </widget>
