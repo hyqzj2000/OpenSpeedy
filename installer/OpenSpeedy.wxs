@@ -32,11 +32,17 @@
                    Advertise="yes" />
         </File>
       </Component>
-      <Component Id="AllFiles" Guid="*">
-        <File Source="files\bridge32.exe" />
-        <File Source="files\bridge64.exe" />
-        <File Source="files\speedpatch32.dll" />
-        <File Source="files\speedpatch64.dll" />
+      <Component Id="Bridge32" Guid="*">
+        <File Id="Bridge32Exe" Source="files\bridge32.exe" KeyPath="yes" />
+      </Component>
+      <Component Id="Bridge64" Guid="*">
+        <File Id="Bridge64Exe" Source="files\bridge64.exe" KeyPath="yes" />
+      </Component>
+      <Component Id="SpeedPatch32" Guid="*">
+        <File Id="SpeedPatch32Dll" Source="files\speedpatch32.dll" KeyPath="yes" />
+      </Component>
+      <Component Id="SpeedPatch64" Guid="*">
+        <File Id="SpeedPatch64Dll" Source="files\speedpatch64.dll" KeyPath="yes" />
       </Component>
     </ComponentGroup>
   </Fragment>
