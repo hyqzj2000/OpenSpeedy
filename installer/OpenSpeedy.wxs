@@ -1,32 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs"
-     xmlns:ui="http://wixtoolset.org/schemas/v4/wxs/ui">
-  <Package Name="OpenSpeedy" 
-           Manufacturer="OpenSpeedy" 
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+  <Product Id="*" 
+           Name="OpenSpeedy" 
+           Language="1033" 
            Version="$(var.Version)" 
+           Manufacturer="OpenSpeedy" 
            UpgradeCode="12345678-1234-1234-1234-123456789012">
     
-    <MajorUpgrade DowngradeErrorMessage="A newer version of OpenSpeedy is already installed." />
+    <Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
+
+    <MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
     <MediaTemplate EmbedCab="yes" />
 
     <!-- 添加标准 UI -->
-    <ui:WixUI Id="WixUI_Minimal" />
+    <UIRef Id="WixUI_Minimal" />
     <UIRef Id="WixUI_ErrorProgressText" />
 
     <Feature Id="ProductFeature" Title="OpenSpeedy" Level="1">
       <ComponentGroupRef Id="ProductComponents" />
     </Feature>
-  </Package>
+  </Product>
 
   <Fragment>
-    <StandardDirectory Id="ProgramFiles64Folder">
-      <Directory Id="INSTALLFOLDER" Name="OpenSpeedy" />
-    </StandardDirectory>
+    <Directory Id="TARGETDIR" Name="SourceDir">
+      <Directory Id="ProgramFiles64Folder">
+        <Directory Id="INSTALLFOLDER" Name="OpenSpeedy" />
+      </Directory>
+      <Directory Id="ProgramMenuFolder" />
+    </Directory>
   </Fragment>
 
   <Fragment>
     <ComponentGroup Id="ProductComponents" Directory="INSTALLFOLDER">
-      <Component Id="MainExecutable">
+      <Component Id="MainExecutable" Guid="11111111-1111-1111-1111-111111111111">
         <File Id="MainExecutable" Source="files\Speedy.exe" KeyPath="yes">
           <Shortcut Id="StartMenuShortcut" 
                    Directory="ProgramMenuFolder" 
@@ -37,16 +43,16 @@
                    Advertise="yes" />
         </File>
       </Component>
-      <Component Id="Bridge32" Guid="*">
+      <Component Id="Bridge32" Guid="22222222-2222-2222-2222-222222222222">
         <File Id="Bridge32Exe" Source="files\bridge32.exe" KeyPath="yes" />
       </Component>
-      <Component Id="Bridge64" Guid="*">
+      <Component Id="Bridge64" Guid="33333333-3333-3333-3333-333333333333">
         <File Id="Bridge64Exe" Source="files\bridge64.exe" KeyPath="yes" />
       </Component>
-      <Component Id="SpeedPatch32" Guid="*">
+      <Component Id="SpeedPatch32" Guid="44444444-4444-4444-4444-444444444444">
         <File Id="SpeedPatch32Dll" Source="files\speedpatch32.dll" KeyPath="yes" />
       </Component>
-      <Component Id="SpeedPatch64" Guid="*">
+      <Component Id="SpeedPatch64" Guid="55555555-5555-5555-5555-555555555555">
         <File Id="SpeedPatch64Dll" Source="files\speedpatch64.dll" KeyPath="yes" />
       </Component>
     </ComponentGroup>
