@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
   <Product Id="*" 
-           Name="OpenSpeedy" 
+           Name="Speedy" 
            Language="1033" 
            Version="$(var.Version)" 
            Manufacturer="OpenSpeedy" 
@@ -16,8 +16,9 @@
     <UIRef Id="WixUI_Minimal" />
     <UIRef Id="WixUI_ErrorProgressText" />
 
-    <Feature Id="ProductFeature" Title="OpenSpeedy" Level="1">
+    <Feature Id="ProductFeature" Title="Speedy" Level="1">
       <ComponentGroupRef Id="ProductComponents" />
+      <ComponentGroupRef Id="ShortcutComponents" />
     </Feature>
   </Product>
 
@@ -26,7 +27,9 @@
       <Directory Id="ProgramFiles64Folder">
         <Directory Id="INSTALLFOLDER" Name="OpenSpeedy" />
       </Directory>
-      <Directory Id="ProgramMenuFolder" />
+      <Directory Id="ProgramMenuFolder">
+        <Directory Id="ApplicationProgramsFolder" Name="Speedy" />
+      </Directory>
     </Directory>
   </Fragment>
 
@@ -34,17 +37,6 @@
     <ComponentGroup Id="ProductComponents" Directory="INSTALLFOLDER">
       <Component Id="MainExecutable" Guid="11111111-1111-1111-1111-111111111111" Win64="yes">
         <File Id="MainExecutable" Source="files\Speedy.exe" KeyPath="yes" />
-      </Component>
-      <Component Id="StartMenuShortcut" Guid="66666666-6666-6666-6666-666666666666" Win64="yes">
-        <Shortcut Id="StartMenuShortcut" 
-                 Directory="ProgramMenuFolder" 
-                 Name="OpenSpeedy" 
-                 Target="[INSTALLFOLDER]Speedy.exe"
-                 WorkingDirectory="INSTALLFOLDER"
-                 Icon="SpeedyIcon"
-                 IconIndex="0" />
-        <RemoveFolder Id="RemoveProgramMenuFolder" Directory="ProgramMenuFolder" On="uninstall" />
-        <RegistryValue Root="HKLM" Key="Software\OpenSpeedy" Name="installed" Type="integer" Value="1" KeyPath="yes" />
       </Component>
       <Component Id="Bridge32" Guid="22222222-2222-2222-2222-222222222222" Win64="yes">
         <File Id="Bridge32Exe" Source="files\bridge32.exe" KeyPath="yes" />
@@ -57,6 +49,19 @@
       </Component>
       <Component Id="SpeedPatch64" Guid="55555555-5555-5555-5555-555555555555" Win64="yes">
         <File Id="SpeedPatch64Dll" Source="files\speedpatch64.dll" KeyPath="yes" />
+      </Component>
+    </ComponentGroup>
+    
+    <ComponentGroup Id="ShortcutComponents" Directory="ApplicationProgramsFolder">
+      <Component Id="StartMenuShortcut" Guid="66666666-6666-6666-6666-666666666666">
+        <Shortcut Id="StartMenuShortcut" 
+                 Name="Speedy" 
+                 Target="[INSTALLFOLDER]Speedy.exe"
+                 WorkingDirectory="INSTALLFOLDER"
+                 Icon="SpeedyIcon"
+                 IconIndex="0" />
+        <RemoveFolder Id="RemoveApplicationProgramsFolder" On="uninstall" />
+        <RegistryValue Root="HKCU" Key="Software\OpenSpeedy" Name="installed" Type="integer" Value="1" KeyPath="yes" />
       </Component>
     </ComponentGroup>
   </Fragment>
