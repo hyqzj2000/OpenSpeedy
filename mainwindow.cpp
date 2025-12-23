@@ -18,6 +18,7 @@
 #include "./ui_mainwindow.h"
 #include "mainwindow.h"
 #include "themeutils.h"
+#include <thread>
 #include <QCloseEvent>
 #include <QDateTime>
 #include <QDebug>
@@ -437,7 +438,7 @@ void MainWindow::init()
     m_themeGroup->addAction(ui->actionLightTheme);
     m_themeGroup->addAction(ui->actionDarkTheme);
     
-    int theme = m_settings->value(CONFIG_THEME, ThemeUtils::Dark).toInt();
+    int theme = m_settings->value(CONFIG_THEME, ThemeUtils::Light).toInt();
     if (theme == ThemeUtils::Light)
     {
         ui->actionLightTheme->setChecked(true);
@@ -496,7 +497,7 @@ bool MainWindow::nativeEventFilter(const QByteArray &eventType,
         {
             static qint64 lastSoundTime = 0;
             qint64 currentTime = QDateTime::currentMSecsSinceEpoch();
-            bool canPlaySound = (currentTime - lastSoundTime > 100);
+            bool canPlaySound = (currentTime - lastSoundTime > 500);
             int hotkeyId = msg->wParam;
 
             switch (hotkeyId)
@@ -508,7 +509,7 @@ bool MainWindow::nativeEventFilter(const QByteArray &eventType,
                 {
                     if (canPlaySound)
                     {
-                        Beep(400, 5);
+                        std::thread([]() { Beep(400, 5); }).detach();
                         lastSoundTime = currentTime;
                     }
                     ui->sliderCtrl->setValue(
@@ -527,7 +528,7 @@ bool MainWindow::nativeEventFilter(const QByteArray &eventType,
                 {
                     if (canPlaySound)
                     {
-                        Beep(400, 5);
+                        std::thread([]() { Beep(400, 5); }).detach();
                         lastSoundTime = currentTime;
                     }
                     ui->sliderCtrl->setValue(
@@ -542,7 +543,7 @@ bool MainWindow::nativeEventFilter(const QByteArray &eventType,
             case HOTKEY_RESET_SPEED:
                 if (canPlaySound)
                 {
-                    Beep(1600, 5);
+                    std::thread([]() { Beep(1600, 5); }).detach();
                     lastSoundTime = currentTime;
                 }
                 ui->sliderCtrl->setValue(0);
@@ -551,7 +552,7 @@ bool MainWindow::nativeEventFilter(const QByteArray &eventType,
             case HOTKEY_SHIFT1:
                 if (canPlaySound)
                 {
-                    Beep(1600, 5);
+                    std::thread([]() { Beep(1600, 5); }).detach();
                     lastSoundTime = currentTime;
                 }
                 ui->sliderCtrl->setValue(
@@ -560,7 +561,7 @@ bool MainWindow::nativeEventFilter(const QByteArray &eventType,
             case HOTKEY_SHIFT2:
                 if (canPlaySound)
                 {
-                    Beep(1600, 5);
+                    std::thread([]() { Beep(1600, 5); }).detach();
                     lastSoundTime = currentTime;
                 }
                 ui->sliderCtrl->setValue(
@@ -569,7 +570,7 @@ bool MainWindow::nativeEventFilter(const QByteArray &eventType,
             case HOTKEY_SHIFT3:
                 if (canPlaySound)
                 {
-                    Beep(1600, 5);
+                    std::thread([]() { Beep(1600, 5); }).detach();
                     lastSoundTime = currentTime;
                 }
                 ui->sliderCtrl->setValue(
@@ -578,7 +579,7 @@ bool MainWindow::nativeEventFilter(const QByteArray &eventType,
             case HOTKEY_SHIFT4:
                 if (canPlaySound)
                 {
-                    Beep(1600, 5);
+                    std::thread([]() { Beep(1600, 5); }).detach();
                     lastSoundTime = currentTime;
                 }
                 ui->sliderCtrl->setValue(
@@ -587,7 +588,7 @@ bool MainWindow::nativeEventFilter(const QByteArray &eventType,
             case HOTKEY_SHIFT5:
                 if (canPlaySound)
                 {
-                    Beep(1600, 5);
+                    std::thread([]() { Beep(1600, 5); }).detach();
                     lastSoundTime = currentTime;
                 }
                 ui->sliderCtrl->setValue(
