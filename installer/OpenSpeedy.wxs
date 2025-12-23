@@ -32,8 +32,11 @@
                    Advertise="yes" />
         </File>
       </Component>
-      <Component Id="OtherFiles">
-        <File Source="files\*.*" />
+      <Component Id="AllFiles" Guid="*">
+        <File Source="files\bridge32.exe" />
+        <File Source="files\bridge64.exe" />
+        <File Source="files\speedpatch32.dll" />
+        <File Source="files\speedpatch64.dll" />
       </Component>
     </ComponentGroup>
   </Fragment>
