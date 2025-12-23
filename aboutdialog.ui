@@ -324,6 +324,11 @@
      </item>
      <item row="2" column="1">
       <widget class="QLabel" name="sponsorTitle">
+       <property name="font">
+        <font>
+         <family>微软雅黑</family>
+        </font>
+       </property>
        <property name="text">
         <string>捐赠：</string>
        </property>

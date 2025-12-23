@@ -8,7 +8,7 @@
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="206"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="206"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_aboutdialog.h" line="206"/>
-        <location filename="build/x86_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="227"/>
+        <location filename="build/x86_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="228"/>
         <source>关于</source>
         <translation type="unfinished"></translation>
     </message>
@@ -17,7 +17,7 @@
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="207"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="207"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_aboutdialog.h" line="207"/>
-        <location filename="build/x86_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="228"/>
+        <location filename="build/x86_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="229"/>
         <source>OpenSpeedy</source>
         <translation type="unfinished"></translation>
     </message>
@@ -26,7 +26,7 @@
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="209"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="209"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_aboutdialog.h" line="209"/>
-        <location filename="build/x86_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="229"/>
+        <location filename="build/x86_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="230"/>
         <source>😄</source>
         <translation type="unfinished"></translation>
     </message>
@@ -35,25 +35,25 @@
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="212"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="212"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_aboutdialog.h" line="212"/>
-        <location filename="build/x86_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="237"/>
+        <location filename="build/x86_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="238"/>
         <source>General Public License v3</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="aboutdialog.ui" line="321"/>
-        <location filename="build/x86_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="241"/>
+        <location filename="build/x86_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="242"/>
         <source>🎁</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="aboutdialog.ui" line="328"/>
-        <location filename="build/x86_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="242"/>
+        <location filename="aboutdialog.ui" line="333"/>
+        <location filename="build/x86_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="243"/>
         <source>捐赠：</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="aboutdialog.ui" line="343"/>
-        <location filename="build/x86_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="243"/>
+        <location filename="aboutdialog.ui" line="348"/>
+        <location filename="build/x86_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="244"/>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
@@ -69,7 +69,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="214"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="214"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_aboutdialog.h" line="214"/>
-        <location filename="build/x86_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="234"/>
+        <location filename="build/x86_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="235"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/game1024&quot;&gt;&lt;span style=&quot; text-decoration: none; color:#003e92;&quot;&gt;game1024&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
@@ -78,7 +78,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="217"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="217"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_aboutdialog.h" line="217"/>
-        <location filename="build/x86_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="233"/>
+        <location filename="build/x86_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="234"/>
         <source>v0.0.0</source>
         <translation type="unfinished"></translation>
     </message>
@@ -87,7 +87,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="210"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="210"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_aboutdialog.h" line="210"/>
-        <location filename="build/x86_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="239"/>
+        <location filename="build/x86_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="240"/>
         <source>作者：</source>
         <translation type="unfinished"></translation>
     </message>
@@ -96,7 +96,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="216"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="216"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_aboutdialog.h" line="216"/>
-        <location filename="build/x86_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="238"/>
+        <location filename="build/x86_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="239"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/game1024/OpenSpeedy&quot;&gt;&lt;span style=&quot; text-decoration: none; color:#003e92;&quot;&gt;game1024/OpenSpeedy&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
@@ -105,7 +105,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="219"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="219"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_aboutdialog.h" line="219"/>
-        <location filename="build/x86_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="240"/>
+        <location filename="build/x86_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="241"/>
         <source>主页：</source>
         <translation type="unfinished"></translation>
     </message>
@@ -114,7 +114,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="208"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="208"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_aboutdialog.h" line="208"/>
-        <location filename="build/x86_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="230"/>
+        <location filename="build/x86_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="231"/>
         <source>版本：</source>
         <translation type="unfinished"></translation>
     </message>
@@ -123,7 +123,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="218"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="218"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_aboutdialog.h" line="218"/>
-        <location filename="build/x86_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="235"/>
+        <location filename="build/x86_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="236"/>
         <source>协议：</source>
         <translation type="unfinished"></translation>
     </message>
@@ -132,7 +132,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="213"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="213"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_aboutdialog.h" line="213"/>
-        <location filename="build/x86_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="231"/>
+        <location filename="build/x86_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="232"/>
         <source>🚀</source>
         <translation type="unfinished"></translation>
     </message>
@@ -141,7 +141,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="215"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="215"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_aboutdialog.h" line="215"/>
-        <location filename="build/x86_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="232"/>
+        <location filename="build/x86_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="233"/>
         <source>🌳</source>
         <translation type="unfinished"></translation>
     </message>
@@ -150,7 +150,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="211"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="211"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_aboutdialog.h" line="211"/>
-        <location filename="build/x86_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="236"/>
+        <location filename="build/x86_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="237"/>
         <source>📜</source>
         <translation type="unfinished"></translation>
     </message>
