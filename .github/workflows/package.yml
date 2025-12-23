@@ -76,7 +76,7 @@ jobs:
     - name: Build MSI installer
       run: |
         cd installer
-        candle.exe OpenSpeedy.wxs -dVersion=${{ github.event.inputs.version }} -ext WixUIExtension
+        candle.exe OpenSpeedy.wxs -dVersion="${{ github.event.inputs.version }}" -ext WixUIExtension
         light.exe OpenSpeedy.wixobj -out ../OpenSpeedy-installer-${{ github.event.inputs.version }}.msi -ext WixUIExtension
 
     - id: upload-unsigned-installer
