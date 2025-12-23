@@ -353,8 +353,8 @@ ProcessMonitor::startBridge32()
     if (!m_bridge32->waitForStarted())
     {
         QMessageBox::critical(nullptr,
-                              "启动失败",
-                              "32位桥接子进程启动失败，请确保Speedy.exe和bridge32.exe在同一目录下",
+                              tr("启动失败"),
+                              tr("32位桥接子进程启动失败，请确保Speedy.exe和bridge32.exe在同一目录下"),
                               QMessageBox::Ok);
         qDebug() << "32位桥接子进程启动失败";
 
@@ -382,8 +382,8 @@ ProcessMonitor::startBridge64()
     if (!m_bridge64->waitForStarted())
     {
         QMessageBox::critical(nullptr,
-                              "启动失败",
-                              "64位桥接子进程启动失败，请确保Speedy.exe和bridge64.exe在同一目录下",
+                              tr("启动失败"),
+                              tr("64位桥接子进程启动失败，请确保Speedy.exe和bridge64.exe在同一目录下"),
                               QMessageBox::Ok);
         qDebug() << "64位桥接子进程启动失败";
     }
