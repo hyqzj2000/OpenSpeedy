@@ -75,7 +75,7 @@ jobs:
     - name: Build MSI installer
       run: |
         cd installer
-        wix build OpenSpeedy.wxs -d Version=${{ github.event.inputs.version }} -o ../OpenSpeedy-installer-${{ github.event.inputs.version }}.msi
+        wix build OpenSpeedy.wxs -ext WixToolset.UI.wixext -d Version=${{ github.event.inputs.version }} -o ../OpenSpeedy-installer-${{ github.event.inputs.version }}.msi
 
     - id: upload-unsigned-installer
       name: Upload installer
