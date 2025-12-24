@@ -14,8 +14,9 @@
     <MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
     <MediaTemplate EmbedCab="yes" />
 
-    <!-- 添加标准 UI -->
-    <UIRef Id="WixUI_Minimal" />
+    <!-- 添加标准 UI，允许选择安装路径 -->
+    <UIRef Id="WixUI_InstallDir" />
+    <Property Id="WIXUI_INSTALLDIR" Value="INSTALLFOLDER" />
     <UIRef Id="WixUI_ErrorProgressText" />
 
     <Feature Id="ProductFeature" Title="Speedy" Level="1">
@@ -43,13 +44,13 @@
                    Directory="ApplicationProgramsFolder" 
                    Name="Speedy" 
                    WorkingDirectory="INSTALLFOLDER"
-                   Icon="SpeedyIcon"
+                   Icon="ProductIcon"
                    IconIndex="0" />
           <Shortcut Id="DesktopShortcut" 
                    Directory="DesktopFolder" 
                    Name="Speedy" 
                    WorkingDirectory="INSTALLFOLDER"
-                   Icon="SpeedyIcon"
+                   Icon="ProductIcon"
                    IconIndex="0" />
         </File>
         <RemoveFolder Id="RemoveINSTALLFOLDER" Directory="INSTALLFOLDER" On="uninstall" />
@@ -73,9 +74,5 @@
         <RegistryValue Root="HKCU" Key="Software\Speedy" Name="Patch64" Type="integer" Value="1" KeyPath="yes" />
       </Component>
     </ComponentGroup>
-  </Fragment>
-
-  <Fragment>
-    <Icon Id="SpeedyIcon" SourceFile="files\Speedy.exe" />
   </Fragment>
 </Wix>
