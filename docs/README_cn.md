@@ -95,7 +95,9 @@ speedy
 
 📥 **方式3：微软商店下载（仅限中国地区）**
 
-[<img src="https://get.microsoft.com/images/en-us%20dark.svg" alt="Get it from Microsoft" height="104">](https://apps.microsoft.com/store/detail/XPDBTX08F0XTFC?referrer=appbadge&launch=true&mode=full)
+<a href="https://apps.microsoft.com/detail/xpdbtx08f0xtfc?referrer=appbadge&mode=full">
+	<img src="https://get.microsoft.com/images/en-us%20dark.svg" width="200"/>
+</a>
 
 # 💻 操作系统要求
 - OS: Windows10 以上
