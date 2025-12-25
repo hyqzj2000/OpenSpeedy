@@ -93,6 +93,10 @@ speedy
 访问 [安装页面](https://github.com/game1024/OpenSpeedy/releases) 下载最新版本
 
 
+📥 **方式3：微软商店下载（仅限中国地区）**
+
+[<img src="https://get.microsoft.com/images/en-us%20dark.svg" alt="Get it from Microsoft" height="104">](https://apps.microsoft.com/store/detail/XPDBTX08F0XTFC?referrer=appbadge&launch=true&mode=full)
+
 # 💻 操作系统要求
 - OS: Windows10 以上
 - 平台：x86（32位） 和 x64 （64位）
