@@ -1,5 +1,3 @@
-<a href="https://nf.video/pGt2q"><img src="https://github.com/user-attachments/assets/ff4e4df3-c290-49dc-852c-5e9227374be9"></img></a>
-
 <h1 align="center"> OpenSpeedy </h1>
 
 <p align="center">
