@@ -14,7 +14,7 @@ on:
       artifact_name:
         description: '签名的制品名称'
         required: true
-        default: 'Speedy-unsigned-artifacts'
+        default: 'OpenSpeedy-unsigned-artifacts'
         type: string
 
 jobs:
@@ -77,14 +77,14 @@ jobs:
       run: |
         cd installer
         candle.exe OpenSpeedy.wxs -dVersion="${{ github.event.inputs.version }}" -ext WixUIExtension
-        light.exe OpenSpeedy.wixobj -out ../OpenSpeedy-installer-${{ github.event.inputs.version }}.msi -ext WixUIExtension -sice:ICE91
+        light.exe OpenSpeedy.wixobj -out ../OpenSpeedy-installer-${{ github.event.inputs.version }}.msi -ext WixUIExtension
 
     - id: upload-unsigned-installer
       name: Upload installer
       uses: actions/upload-artifact@v4
       with:
-        name: OpenSpeedy-unsigned-installer-${{ github.event.inputs.version }}
-        path: OpenSpeedy-installer-${{ github.event.inputs.version }}.msi
+        name: Speedy-unsigned-installer-${{ github.event.inputs.version }}
+        path: Speedy-installer-${{ github.event.inputs.version }}.msi
 
     - name: SignPath signing
       uses: signpath/github-action-submit-signing-request@v1.1
@@ -103,6 +103,6 @@ jobs:
     - name: Upload signed installer
       uses: actions/upload-artifact@v4
       with:
-        name: OpenSpeedy-installer-${{ github.event.inputs.version }}
+        name: Speedy-installer-${{ github.event.inputs.version }}
         path: signed-installer/
         retention-days: 30
