@@ -6,6 +6,7 @@
     <message>
         <location filename="aboutdialog.ui" line="35"/>
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="206"/>
+        <location filename="build/x64_static-Release/OpenSpeedy_autogen/include/ui_aboutdialog.h" line="229"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="229"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_aboutdialog.h" line="206"/>
         <location filename="build/x86_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="228"/>
@@ -15,6 +16,7 @@
     <message>
         <location filename="aboutdialog.ui" line="59"/>
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="207"/>
+        <location filename="build/x64_static-Release/OpenSpeedy_autogen/include/ui_aboutdialog.h" line="230"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="230"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_aboutdialog.h" line="207"/>
         <location filename="build/x86_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="229"/>
@@ -24,6 +26,7 @@
     <message>
         <location filename="aboutdialog.ui" line="107"/>
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="208"/>
+        <location filename="build/x64_static-Release/OpenSpeedy_autogen/include/ui_aboutdialog.h" line="232"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="232"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_aboutdialog.h" line="208"/>
         <location filename="build/x86_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="231"/>
@@ -32,6 +35,7 @@
     </message>
     <message>
         <location filename="aboutdialog.ui" line="321"/>
+        <location filename="build/x64_static-Release/OpenSpeedy_autogen/include/ui_aboutdialog.h" line="243"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="243"/>
         <location filename="build/x86_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="242"/>
         <source>🎁</source>
@@ -39,6 +43,7 @@
     </message>
     <message>
         <location filename="aboutdialog.ui" line="333"/>
+        <location filename="build/x64_static-Release/OpenSpeedy_autogen/include/ui_aboutdialog.h" line="244"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="244"/>
         <location filename="build/x86_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="243"/>
         <source>捐赠：</source>
@@ -46,6 +51,7 @@
     </message>
     <message>
         <location filename="aboutdialog.ui" line="348"/>
+        <location filename="build/x64_static-Release/OpenSpeedy_autogen/include/ui_aboutdialog.h" line="245"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="245"/>
         <source>
 &lt;html&gt;&lt;body style=&quot; font-family:&apos;微软雅黑&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
@@ -67,6 +73,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="aboutdialog.ui" line="89"/>
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="209"/>
+        <location filename="build/x64_static-Release/OpenSpeedy_autogen/include/ui_aboutdialog.h" line="231"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="231"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_aboutdialog.h" line="209"/>
         <location filename="build/x86_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="230"/>
@@ -76,6 +83,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="aboutdialog.ui" line="272"/>
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="210"/>
+        <location filename="build/x64_static-Release/OpenSpeedy_autogen/include/ui_aboutdialog.h" line="241"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="241"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_aboutdialog.h" line="210"/>
         <location filename="build/x86_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="240"/>
@@ -85,6 +93,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="aboutdialog.ui" line="227"/>
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="211"/>
+        <location filename="build/x64_static-Release/OpenSpeedy_autogen/include/ui_aboutdialog.h" line="238"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="238"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_aboutdialog.h" line="211"/>
         <location filename="build/x86_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="237"/>
@@ -94,6 +103,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="aboutdialog.ui" line="239"/>
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="212"/>
+        <location filename="build/x64_static-Release/OpenSpeedy_autogen/include/ui_aboutdialog.h" line="239"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="239"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_aboutdialog.h" line="212"/>
         <location filename="build/x86_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="238"/>
@@ -103,6 +113,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="aboutdialog.ui" line="135"/>
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="213"/>
+        <location filename="build/x64_static-Release/OpenSpeedy_autogen/include/ui_aboutdialog.h" line="233"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="233"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_aboutdialog.h" line="213"/>
         <location filename="build/x86_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="232"/>
@@ -112,6 +123,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="aboutdialog.ui" line="178"/>
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="214"/>
+        <location filename="build/x64_static-Release/OpenSpeedy_autogen/include/ui_aboutdialog.h" line="236"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="236"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_aboutdialog.h" line="214"/>
         <location filename="build/x86_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="235"/>
@@ -121,6 +133,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="aboutdialog.ui" line="154"/>
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="215"/>
+        <location filename="build/x64_static-Release/OpenSpeedy_autogen/include/ui_aboutdialog.h" line="234"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="234"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_aboutdialog.h" line="215"/>
         <location filename="build/x86_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="233"/>
@@ -130,6 +143,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="aboutdialog.ui" line="251"/>
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="216"/>
+        <location filename="build/x64_static-Release/OpenSpeedy_autogen/include/ui_aboutdialog.h" line="240"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="240"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_aboutdialog.h" line="216"/>
         <location filename="build/x86_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="239"/>
@@ -139,6 +153,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="aboutdialog.ui" line="166"/>
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="217"/>
+        <location filename="build/x64_static-Release/OpenSpeedy_autogen/include/ui_aboutdialog.h" line="235"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="235"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_aboutdialog.h" line="217"/>
         <location filename="build/x86_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="234"/>
@@ -148,6 +163,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="aboutdialog.ui" line="199"/>
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="218"/>
+        <location filename="build/x64_static-Release/OpenSpeedy_autogen/include/ui_aboutdialog.h" line="237"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="237"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_aboutdialog.h" line="218"/>
         <location filename="build/x86_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="236"/>
@@ -157,6 +173,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="aboutdialog.ui" line="299"/>
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="219"/>
+        <location filename="build/x64_static-Release/OpenSpeedy_autogen/include/ui_aboutdialog.h" line="242"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="242"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_aboutdialog.h" line="219"/>
         <location filename="build/x86_static-Release/Speedy_autogen/include/ui_aboutdialog.h" line="241"/>
@@ -172,13 +189,16 @@ li.checked::marker { content: &quot;\2612&quot;; }
 <context>
     <name>MainWindow</name>
     <message>
+        <location filename="mainwindow.ui" line="37"/>
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="541"/>
+        <location filename="build/x64_static-Release/OpenSpeedy_autogen/include/ui_mainwindow.h" line="552"/>
         <source>OpenSpeedy</source>
         <translation></translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="61"/>
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="545"/>
+        <location filename="build/x64_static-Release/OpenSpeedy_autogen/include/ui_mainwindow.h" line="558"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="558"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_mainwindow.h" line="558"/>
         <location filename="build/x86_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="558"/>
@@ -188,6 +208,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="mainwindow.ui" line="75"/>
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="546"/>
+        <location filename="build/x64_static-Release/OpenSpeedy_autogen/include/ui_mainwindow.h" line="559"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="559"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_mainwindow.h" line="559"/>
         <location filename="build/x86_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="559"/>
@@ -197,6 +218,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="mainwindow.ui" line="541"/>
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="559"/>
+        <location filename="build/x64_static-Release/OpenSpeedy_autogen/include/ui_mainwindow.h" line="572"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="572"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_mainwindow.h" line="572"/>
         <location filename="build/x86_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="572"/>
@@ -206,6 +228,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="mainwindow.ui" line="137"/>
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="547"/>
+        <location filename="build/x64_static-Release/OpenSpeedy_autogen/include/ui_mainwindow.h" line="560"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="560"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_mainwindow.h" line="560"/>
         <location filename="build/x86_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="560"/>
@@ -213,7 +236,6 @@ li.checked::marker { content: &quot;\2612&quot;; }
         <translation>🖥️ 作業系統</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="37"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="552"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_mainwindow.h" line="552"/>
         <location filename="build/x86_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="552"/>
@@ -223,6 +245,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="mainwindow.ui" line="155"/>
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="548"/>
+        <location filename="build/x64_static-Release/OpenSpeedy_autogen/include/ui_mainwindow.h" line="561"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="561"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_mainwindow.h" line="561"/>
         <location filename="build/x86_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="561"/>
@@ -232,6 +255,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="mainwindow.ui" line="173"/>
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="549"/>
+        <location filename="build/x64_static-Release/OpenSpeedy_autogen/include/ui_mainwindow.h" line="562"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="562"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_mainwindow.h" line="562"/>
         <location filename="build/x86_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="562"/>
@@ -241,6 +265,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="mainwindow.ui" line="194"/>
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="550"/>
+        <location filename="build/x64_static-Release/OpenSpeedy_autogen/include/ui_mainwindow.h" line="563"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="563"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_mainwindow.h" line="563"/>
         <location filename="build/x86_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="563"/>
@@ -250,6 +275,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="mainwindow.ui" line="212"/>
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="551"/>
+        <location filename="build/x64_static-Release/OpenSpeedy_autogen/include/ui_mainwindow.h" line="564"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="564"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_mainwindow.h" line="564"/>
         <location filename="build/x86_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="564"/>
@@ -259,6 +285,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="mainwindow.ui" line="230"/>
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="552"/>
+        <location filename="build/x64_static-Release/OpenSpeedy_autogen/include/ui_mainwindow.h" line="565"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="565"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_mainwindow.h" line="565"/>
         <location filename="build/x86_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="565"/>
@@ -268,6 +295,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="mainwindow.ui" line="248"/>
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="553"/>
+        <location filename="build/x64_static-Release/OpenSpeedy_autogen/include/ui_mainwindow.h" line="566"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="566"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_mainwindow.h" line="566"/>
         <location filename="build/x86_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="566"/>
@@ -279,6 +307,8 @@ li.checked::marker { content: &quot;\2612&quot;; }
         <location filename="mainwindow.ui" line="302"/>
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="554"/>
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="556"/>
+        <location filename="build/x64_static-Release/OpenSpeedy_autogen/include/ui_mainwindow.h" line="567"/>
+        <location filename="build/x64_static-Release/OpenSpeedy_autogen/include/ui_mainwindow.h" line="569"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="567"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="569"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_mainwindow.h" line="567"/>
@@ -291,6 +321,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="mainwindow.ui" line="284"/>
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="555"/>
+        <location filename="build/x64_static-Release/OpenSpeedy_autogen/include/ui_mainwindow.h" line="568"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="568"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_mainwindow.h" line="568"/>
         <location filename="build/x86_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="568"/>
@@ -300,6 +331,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="mainwindow.ui" line="331"/>
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="557"/>
+        <location filename="build/x64_static-Release/OpenSpeedy_autogen/include/ui_mainwindow.h" line="570"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="570"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_mainwindow.h" line="570"/>
         <location filename="build/x86_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="570"/>
@@ -311,6 +343,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="mainwindow.ui" line="576"/>
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="560"/>
+        <location filename="build/x64_static-Release/OpenSpeedy_autogen/include/ui_mainwindow.h" line="573"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="573"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_mainwindow.h" line="573"/>
         <location filename="build/x86_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="573"/>
@@ -320,6 +353,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="mainwindow.ui" line="588"/>
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="561"/>
+        <location filename="build/x64_static-Release/OpenSpeedy_autogen/include/ui_mainwindow.h" line="574"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="574"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_mainwindow.h" line="574"/>
         <location filename="build/x86_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="574"/>
@@ -329,6 +363,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="mainwindow.ui" line="600"/>
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="562"/>
+        <location filename="build/x64_static-Release/OpenSpeedy_autogen/include/ui_mainwindow.h" line="575"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="575"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_mainwindow.h" line="575"/>
         <location filename="build/x86_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="575"/>
@@ -338,6 +373,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="mainwindow.ui" line="630"/>
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="563"/>
+        <location filename="build/x64_static-Release/OpenSpeedy_autogen/include/ui_mainwindow.h" line="576"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="576"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_mainwindow.h" line="576"/>
         <location filename="build/x86_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="576"/>
@@ -346,6 +382,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <location filename="mainwindow.ui" line="922"/>
+        <location filename="build/x64_static-Release/OpenSpeedy_autogen/include/ui_mainwindow.h" line="556"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="556"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_mainwindow.h" line="556"/>
         <location filename="build/x86_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="556"/>
@@ -354,6 +391,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <location filename="mainwindow.ui" line="930"/>
+        <location filename="build/x64_static-Release/OpenSpeedy_autogen/include/ui_mainwindow.h" line="557"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="557"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_mainwindow.h" line="557"/>
         <location filename="build/x86_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="557"/>
@@ -367,6 +405,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="mainwindow.ui" line="654"/>
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="564"/>
+        <location filename="build/x64_static-Release/OpenSpeedy_autogen/include/ui_mainwindow.h" line="577"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="577"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_mainwindow.h" line="577"/>
         <location filename="build/x86_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="577"/>
@@ -376,6 +415,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="mainwindow.ui" line="751"/>
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="571"/>
+        <location filename="build/x64_static-Release/OpenSpeedy_autogen/include/ui_mainwindow.h" line="584"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="584"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_mainwindow.h" line="584"/>
         <location filename="build/x86_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="584"/>
@@ -385,6 +425,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="mainwindow.ui" line="762"/>
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="570"/>
+        <location filename="build/x64_static-Release/OpenSpeedy_autogen/include/ui_mainwindow.h" line="583"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="583"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_mainwindow.h" line="583"/>
         <location filename="build/x86_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="583"/>
@@ -394,6 +435,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="mainwindow.ui" line="773"/>
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="569"/>
+        <location filename="build/x64_static-Release/OpenSpeedy_autogen/include/ui_mainwindow.h" line="582"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="582"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_mainwindow.h" line="582"/>
         <location filename="build/x86_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="582"/>
@@ -403,6 +445,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="mainwindow.ui" line="784"/>
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="568"/>
+        <location filename="build/x64_static-Release/OpenSpeedy_autogen/include/ui_mainwindow.h" line="581"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="581"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_mainwindow.h" line="581"/>
         <location filename="build/x86_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="581"/>
@@ -416,6 +459,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="mainwindow.ui" line="795"/>
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="567"/>
+        <location filename="build/x64_static-Release/OpenSpeedy_autogen/include/ui_mainwindow.h" line="580"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="580"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_mainwindow.h" line="580"/>
         <location filename="build/x86_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="580"/>
@@ -425,6 +469,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="mainwindow.ui" line="806"/>
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="566"/>
+        <location filename="build/x64_static-Release/OpenSpeedy_autogen/include/ui_mainwindow.h" line="579"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="579"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_mainwindow.h" line="579"/>
         <location filename="build/x86_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="579"/>
@@ -434,6 +479,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="mainwindow.ui" line="830"/>
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="572"/>
+        <location filename="build/x64_static-Release/OpenSpeedy_autogen/include/ui_mainwindow.h" line="585"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="585"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_mainwindow.h" line="585"/>
         <location filename="build/x86_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="585"/>
@@ -443,6 +489,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="mainwindow.ui" line="853"/>
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="573"/>
+        <location filename="build/x64_static-Release/OpenSpeedy_autogen/include/ui_mainwindow.h" line="586"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="586"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_mainwindow.h" line="586"/>
         <location filename="build/x86_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="586"/>
@@ -452,6 +499,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="mainwindow.ui" line="861"/>
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="574"/>
+        <location filename="build/x64_static-Release/OpenSpeedy_autogen/include/ui_mainwindow.h" line="587"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="587"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_mainwindow.h" line="587"/>
         <location filename="build/x86_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="587"/>
@@ -461,6 +509,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="mainwindow.ui" line="866"/>
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="575"/>
+        <location filename="build/x64_static-Release/OpenSpeedy_autogen/include/ui_mainwindow.h" line="588"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="588"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_mainwindow.h" line="588"/>
         <location filename="build/x86_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="588"/>
@@ -469,6 +518,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <location filename="mainwindow.ui" line="874"/>
+        <location filename="build/x64_static-Release/OpenSpeedy_autogen/include/ui_mainwindow.h" line="589"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="589"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_mainwindow.h" line="589"/>
         <location filename="build/x86_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="589"/>
@@ -478,6 +528,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="mainwindow.ui" line="889"/>
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="542"/>
+        <location filename="build/x64_static-Release/OpenSpeedy_autogen/include/ui_mainwindow.h" line="553"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="553"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_mainwindow.h" line="553"/>
         <location filename="build/x86_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="553"/>
@@ -487,6 +538,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="mainwindow.ui" line="900"/>
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="543"/>
+        <location filename="build/x64_static-Release/OpenSpeedy_autogen/include/ui_mainwindow.h" line="554"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="554"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_mainwindow.h" line="554"/>
         <location filename="build/x86_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="554"/>
@@ -496,6 +548,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="mainwindow.ui" line="911"/>
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="544"/>
+        <location filename="build/x64_static-Release/OpenSpeedy_autogen/include/ui_mainwindow.h" line="555"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="555"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_mainwindow.h" line="555"/>
         <location filename="build/x86_static-Release/Speedy_autogen/include/ui_mainwindow.h" line="555"/>
@@ -585,6 +638,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="preferencedialog.ui" line="20"/>
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_preferencedialog.h" line="288"/>
+        <location filename="build/x64_static-Release/OpenSpeedy_autogen/include/ui_preferencedialog.h" line="288"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_preferencedialog.h" line="288"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_preferencedialog.h" line="288"/>
         <location filename="build/x86_static-Release/Speedy_autogen/include/ui_preferencedialog.h" line="288"/>
@@ -594,6 +648,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="preferencedialog.ui" line="40"/>
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_preferencedialog.h" line="289"/>
+        <location filename="build/x64_static-Release/OpenSpeedy_autogen/include/ui_preferencedialog.h" line="289"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_preferencedialog.h" line="289"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_preferencedialog.h" line="289"/>
         <location filename="build/x86_static-Release/Speedy_autogen/include/ui_preferencedialog.h" line="289"/>
@@ -603,6 +658,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="preferencedialog.ui" line="52"/>
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_preferencedialog.h" line="290"/>
+        <location filename="build/x64_static-Release/OpenSpeedy_autogen/include/ui_preferencedialog.h" line="290"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_preferencedialog.h" line="290"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_preferencedialog.h" line="290"/>
         <location filename="build/x86_static-Release/Speedy_autogen/include/ui_preferencedialog.h" line="290"/>
@@ -612,6 +668,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="preferencedialog.ui" line="62"/>
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_preferencedialog.h" line="291"/>
+        <location filename="build/x64_static-Release/OpenSpeedy_autogen/include/ui_preferencedialog.h" line="291"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_preferencedialog.h" line="291"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_preferencedialog.h" line="291"/>
         <location filename="build/x86_static-Release/Speedy_autogen/include/ui_preferencedialog.h" line="291"/>
@@ -621,6 +678,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="preferencedialog.ui" line="74"/>
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_preferencedialog.h" line="292"/>
+        <location filename="build/x64_static-Release/OpenSpeedy_autogen/include/ui_preferencedialog.h" line="292"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_preferencedialog.h" line="292"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_preferencedialog.h" line="292"/>
         <location filename="build/x86_static-Release/Speedy_autogen/include/ui_preferencedialog.h" line="292"/>
@@ -632,6 +690,8 @@ li.checked::marker { content: &quot;\2612&quot;; }
         <location filename="preferencedialog.ui" line="324"/>
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_preferencedialog.h" line="293"/>
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_preferencedialog.h" line="307"/>
+        <location filename="build/x64_static-Release/OpenSpeedy_autogen/include/ui_preferencedialog.h" line="293"/>
+        <location filename="build/x64_static-Release/OpenSpeedy_autogen/include/ui_preferencedialog.h" line="307"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_preferencedialog.h" line="293"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_preferencedialog.h" line="307"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_preferencedialog.h" line="293"/>
@@ -644,6 +704,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="preferencedialog.ui" line="119"/>
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_preferencedialog.h" line="294"/>
+        <location filename="build/x64_static-Release/OpenSpeedy_autogen/include/ui_preferencedialog.h" line="294"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_preferencedialog.h" line="294"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_preferencedialog.h" line="294"/>
         <location filename="build/x86_static-Release/Speedy_autogen/include/ui_preferencedialog.h" line="294"/>
@@ -653,6 +714,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="preferencedialog.ui" line="131"/>
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_preferencedialog.h" line="295"/>
+        <location filename="build/x64_static-Release/OpenSpeedy_autogen/include/ui_preferencedialog.h" line="295"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_preferencedialog.h" line="295"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_preferencedialog.h" line="295"/>
         <location filename="build/x86_static-Release/Speedy_autogen/include/ui_preferencedialog.h" line="295"/>
@@ -662,6 +724,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="preferencedialog.ui" line="138"/>
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_preferencedialog.h" line="296"/>
+        <location filename="build/x64_static-Release/OpenSpeedy_autogen/include/ui_preferencedialog.h" line="296"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_preferencedialog.h" line="296"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_preferencedialog.h" line="296"/>
         <location filename="build/x86_static-Release/Speedy_autogen/include/ui_preferencedialog.h" line="296"/>
@@ -671,6 +734,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="preferencedialog.ui" line="168"/>
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_preferencedialog.h" line="297"/>
+        <location filename="build/x64_static-Release/OpenSpeedy_autogen/include/ui_preferencedialog.h" line="297"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_preferencedialog.h" line="297"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_preferencedialog.h" line="297"/>
         <location filename="build/x86_static-Release/Speedy_autogen/include/ui_preferencedialog.h" line="297"/>
@@ -680,6 +744,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="preferencedialog.ui" line="175"/>
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_preferencedialog.h" line="298"/>
+        <location filename="build/x64_static-Release/OpenSpeedy_autogen/include/ui_preferencedialog.h" line="298"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_preferencedialog.h" line="298"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_preferencedialog.h" line="298"/>
         <location filename="build/x86_static-Release/Speedy_autogen/include/ui_preferencedialog.h" line="298"/>
@@ -689,6 +754,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="preferencedialog.ui" line="187"/>
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_preferencedialog.h" line="299"/>
+        <location filename="build/x64_static-Release/OpenSpeedy_autogen/include/ui_preferencedialog.h" line="299"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_preferencedialog.h" line="299"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_preferencedialog.h" line="299"/>
         <location filename="build/x86_static-Release/Speedy_autogen/include/ui_preferencedialog.h" line="299"/>
@@ -698,6 +764,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="preferencedialog.ui" line="197"/>
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_preferencedialog.h" line="300"/>
+        <location filename="build/x64_static-Release/OpenSpeedy_autogen/include/ui_preferencedialog.h" line="300"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_preferencedialog.h" line="300"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_preferencedialog.h" line="300"/>
         <location filename="build/x86_static-Release/Speedy_autogen/include/ui_preferencedialog.h" line="300"/>
@@ -707,6 +774,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="preferencedialog.ui" line="204"/>
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_preferencedialog.h" line="301"/>
+        <location filename="build/x64_static-Release/OpenSpeedy_autogen/include/ui_preferencedialog.h" line="301"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_preferencedialog.h" line="301"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_preferencedialog.h" line="301"/>
         <location filename="build/x86_static-Release/Speedy_autogen/include/ui_preferencedialog.h" line="301"/>
@@ -716,6 +784,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="preferencedialog.ui" line="229"/>
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_preferencedialog.h" line="302"/>
+        <location filename="build/x64_static-Release/OpenSpeedy_autogen/include/ui_preferencedialog.h" line="302"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_preferencedialog.h" line="302"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_preferencedialog.h" line="302"/>
         <location filename="build/x86_static-Release/Speedy_autogen/include/ui_preferencedialog.h" line="302"/>
@@ -725,6 +794,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="preferencedialog.ui" line="236"/>
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_preferencedialog.h" line="303"/>
+        <location filename="build/x64_static-Release/OpenSpeedy_autogen/include/ui_preferencedialog.h" line="303"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_preferencedialog.h" line="303"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_preferencedialog.h" line="303"/>
         <location filename="build/x86_static-Release/Speedy_autogen/include/ui_preferencedialog.h" line="303"/>
@@ -734,6 +804,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="preferencedialog.ui" line="243"/>
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_preferencedialog.h" line="304"/>
+        <location filename="build/x64_static-Release/OpenSpeedy_autogen/include/ui_preferencedialog.h" line="304"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_preferencedialog.h" line="304"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_preferencedialog.h" line="304"/>
         <location filename="build/x86_static-Release/Speedy_autogen/include/ui_preferencedialog.h" line="304"/>
@@ -743,6 +814,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="preferencedialog.ui" line="268"/>
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_preferencedialog.h" line="305"/>
+        <location filename="build/x64_static-Release/OpenSpeedy_autogen/include/ui_preferencedialog.h" line="305"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_preferencedialog.h" line="305"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_preferencedialog.h" line="305"/>
         <location filename="build/x86_static-Release/Speedy_autogen/include/ui_preferencedialog.h" line="305"/>
@@ -752,6 +824,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="preferencedialog.ui" line="299"/>
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_preferencedialog.h" line="306"/>
+        <location filename="build/x64_static-Release/OpenSpeedy_autogen/include/ui_preferencedialog.h" line="306"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_preferencedialog.h" line="306"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_preferencedialog.h" line="306"/>
         <location filename="build/x86_static-Release/Speedy_autogen/include/ui_preferencedialog.h" line="306"/>
@@ -761,6 +834,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="preferencedialog.ui" line="354"/>
         <location filename="build/CMAKE_x86_static-Release/Speedy_autogen/include/ui_preferencedialog.h" line="308"/>
+        <location filename="build/x64_static-Release/OpenSpeedy_autogen/include/ui_preferencedialog.h" line="308"/>
         <location filename="build/x64_static-Release/Speedy_autogen/include/ui_preferencedialog.h" line="308"/>
         <location filename="build/x86_static-Debug/Speedy_autogen/include/ui_preferencedialog.h" line="308"/>
         <location filename="build/x86_static-Release/Speedy_autogen/include/ui_preferencedialog.h" line="308"/>
