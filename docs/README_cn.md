@@ -10,6 +10,10 @@
 </p>
 
 <p align="center">
+  <a href="https://www.fiofio.cn/">官方网站</a>
+  <br/>
+  <br/>
+	
   <img src="https://api.visitorbadge.io/api/visitors?path=game1024.openspeedy&countColor=%234ecdc4">
   <br/>
     
