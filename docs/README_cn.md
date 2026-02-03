@@ -155,7 +155,6 @@ OpenSpeedy 通过 Hook 以下 Windows 系统时间函数来实现游戏速度调
 |名称|介绍|备注|
 |-|-|-|
 |365VPN|我用过最稳定的，不限流的全系统VPN|[体验地址](https://ref.365tz87989.com/?r=RWQVZD)|
-|爱发电|如果觉得项目对你有帮助，可以在爱发电上捐助我～|https://afdian.com/a/game1024|
 
 # 📜 开源协议
 OpenSpeedy 遵循 GNU v3 许可证。
