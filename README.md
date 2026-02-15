@@ -145,7 +145,7 @@ If you find the OpenSpeedy project helpful, you can buy me a coffee~ ☕️
 |Name|Description|
 |--|--|
 |365VPN|uses dedicated lines to connect worldwide, offering speeds of up to 10Gbps. Download now to start surfing for free🏄: https://ref.365tz87989.com/?r=RWQVZD|
-|Patreon|https://patreon.com/game1024|
+|Github Sponsor|https://github.com/sponsors/game1024|
 
 # Sponsors
 
